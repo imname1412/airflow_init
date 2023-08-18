@@ -8,6 +8,8 @@ default_args={
     'retry_delay': timedelta(minutes=5)
 }
 
+
+# cron setting
 with DAG(
     dag_id='dag_w_cron_expression_v3',
     default_args=default_args,
